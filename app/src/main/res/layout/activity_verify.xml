@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ee"
+    tools:context=".ui.activity.MainActivity">
+
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="46dp"
+        android:id="@+id/back"
+        android:background="@android:color/transparent"
+        android:text="\u003c"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
+
+    <Button
+        android:layout_width="85dp"
+        android:layout_height="46dp"
+        android:id="@+id/help"
+        android:layout_alignParentEnd="true"
+        android:background="@android:color/transparent"
+        android:text="@string/login_help"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        />
+
+    <ImageView
+        android:layout_width="92dp"
+        android:layout_height="83dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/elm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:text="放心点准时达"
+        android:textSize="25dp"
+        android:textColor="#1E88E5"
+        android:textStyle="italic|bold"
+        />
+
+<!--    <Spinner-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:id="@+id/codespinner"-->
+<!--        android:layout_marginStart="36dp"-->
+<!--        android:spinnerMode="dialog"-->
+<!--        android:layout_marginTop="280dp"-->
+<!--        android:layout_marginLeft="40dp"-->
+
+<!--        />-->
+
+<!--    <EditText-->
+<!--        android:id="@+id/input"-->
+<!--        android:layout_width="250dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:layout_marginLeft="100dp"-->
+<!--        android:layout_alignRight="@id/choose"-->
+<!--        android:layout_marginTop="280dp"-->
+<!--        android:hint="@string/login_hint_txt" />-->
+
+<!--    <Button-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/send"-->
+<!--        android:text="@string/login_code"-->
+<!--        android:textSize="17dp"-->
+<!--        android:backgroundTint="#2196F3"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="330dp"/>-->
+
+
+        <EditText
+            android:id="@+id/code_input"
+            android:layout_width="300dp"
+            android:layout_height="56dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="280dp"
+            android:hint="请输入验证码"
+            android:inputType="number" />
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/login_btn"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="470dp"-->
+    <!--        android:text="登录"-->
+    <!--        android:textSize="17dp"-->
+    <!--        android:backgroundTint="#4CAF50" />-->
+
+    <!--    <RadioButton-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:id="@+id/choose"-->
+    <!--        android:text="@string/hint_txt"-->
+    <!--        android:textSize="12dp"-->
+    <!--        android:textColor="#757575"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_marginTop="380dp"/>-->
+
+
+<!--    <CheckBox-->
+<!--        android:id="@+id/choose"-->
+<!--        android:layout_width="300dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/login_agreemnet"-->
+<!--        android:textSize="12dp"-->
+<!--        android:textColor="#757575"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="380dp"-->
+<!--        android:checked="false" />-->
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login_more"
+        android:textSize="12dp"
+        android:textColor="#757575"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="600dp"
+        />
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/zfb"
+        android:layout_marginTop="640dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zfb"
+        android:layout_toStartOf="@id/tb"
+        android:layout_marginEnd="5dp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tb"
+        android:layout_marginTop="640dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tb"
+        android:layout_toStartOf="@id/wx"
+        android:layout_marginEnd="5dp"
+        />
+
+    <ImageButton
+        android:id="@+id/wx"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="640dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wx" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/pg"
+        android:layout_marginTop="640dp"
+        android:layout_toEndOf="@id/wx"
+        android:src="@drawable/pg"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="5dp"
+        />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/gd"
+        android:layout_toEndOf="@id/pg"
+        android:layout_marginTop="640dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/gd"
+        android:layout_marginStart="5dp"/>
+
+
+</RelativeLayout>

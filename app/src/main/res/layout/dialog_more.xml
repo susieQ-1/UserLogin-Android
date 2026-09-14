@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:text="@string/login_more"
+        android:textSize="12dp"
+        android:textColor="#757575"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/more_close"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="\u2716"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"/>
+
+
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/zfb"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/zfb"
+        android:layout_toStartOf="@id/tb"
+        android:layout_marginEnd="5dp"/>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/tb"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/tb"
+        android:layout_toStartOf="@id/wx"
+        android:layout_marginEnd="5dp"
+        />
+
+    <ImageButton
+        android:id="@+id/wx"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wx" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/pg"
+        android:layout_marginTop="50dp"
+        android:layout_toEndOf="@id/wx"
+        android:src="@drawable/pg"
+        android:scaleType="centerCrop"
+        android:layout_marginStart="5dp"
+        />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/mm"
+        android:layout_toEndOf="@id/pg"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mm"
+        android:layout_marginStart="5dp"/>
+
+</RelativeLayout>

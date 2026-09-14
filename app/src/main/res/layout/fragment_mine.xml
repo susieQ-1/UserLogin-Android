@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Mine_unlogin">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/avatar_unlogin"
+            android:src="@drawable/avatar"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/login"
+            android:layout_toRightOf="@id/avatar_unlogin"
+            android:text="@string/mine_login_register"
+            android:layout_marginTop="38dp"
+
+            android:textSize="30dp"
+            android:clickable="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Mine_login">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:id="@+id/avatar_login"
+            android:src="@drawable/avatar_login"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/quit"
+            android:text="退出登陆"
+            android:textSize="20dp"
+            android:layout_toRightOf="@id/avatar_login"
+            android:layout_marginTop="42dp"
+            android:clickable="true"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

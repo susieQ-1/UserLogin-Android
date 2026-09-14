@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="login_code">发送验证码</string>
+    <string name="login_agreemnet">未注册手机号登录后将自动注册，且代表您已阅读已同意《用户服务协议》《隐私政策》</string>
+    <string name="login_more">更多登陆方式</string>
+    <string name="login_help">帮助</string>
+    <string name="login_hint_txt">请输入手机号</string>
+
+    <string name="dialog_help_title">帮助中心</string>
+    <string name="dialog_help_txta">手机号不用了，无法登录或换绑</string>
+    <string name="dialog_help_txtb">其他问题</string>
+    <string name="dialog_help_cancel">取消</string>
+
+    <string name="mine_login_register">登陆/注册</string>
+</resources>

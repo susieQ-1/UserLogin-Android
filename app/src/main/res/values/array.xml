@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="countrycode">
+        <item>Australia澳大利亚（+61）</item>
+        <item>Brazil巴西（+55）</item>
+        <item>Canada加拿大（+1）</item>
+        <item>Chinese Mainland中国大陆（+86）</item>
+        <item>France法国（+33）</item>
+        <item>Germany德国（+49）</item>
+        <item>Hong Kong,China中国香港（+852）</item>
+        <item>Macao,China中国澳门（+853）</item>
+    </string-array>
+
+</resources>
